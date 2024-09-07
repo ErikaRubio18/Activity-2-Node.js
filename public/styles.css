@@ -1,0 +1,105 @@
+/* Basic reset for consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Underwater.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+/* Portfolio section styles */
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item h3 {
+    margin-top: 10px;
+}
+
+.portfolio-item p {
+    color: black;
+}
+
+/* About Me section styles */
+#about img {
+    display: block;
+    margin: 0 auto 20px; /* Center the image horizontally and add margin to separate from text */
+    border-radius: 50%; /* Makes the image round */
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+}
+
+#about p {
+    text-align: left; /* Align the text to the left */
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height as needed */
+    color: #333; /* Text color */
+}
+
+/* Portfolio templpate button styles */
+.portfolio-template-button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #007bff; /*Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.portfolio-template-button:hover {
+    background-color: #0f3b6b; /* Darker blue color on hover */
+}
+
